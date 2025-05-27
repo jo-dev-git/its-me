@@ -2,4 +2,5 @@
     <string name="app_name">ItsMe</string>
     <string name="mario">Mario</string>
     <string name="mario_description">Je suis un plombier d\'une quarantaine d\'années vivant à NYC.\nMa grande passion ?\nPasser du temps à Champignon city pour sauver des princesses et jouer avec des carapaces de tortues</string>
+    <string name="title_top_bar">Mario Material Theme</string>
 </resources>
