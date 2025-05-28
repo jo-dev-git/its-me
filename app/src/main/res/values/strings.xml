@@ -4,4 +4,8 @@
     <string name="mario_description">Je suis un plombier d\'une quarantaine d\'années vivant à NYC.\nMa grande passion ?\nPasser du temps à Champignon city pour sauver des princesses et jouer avec des carapaces de tortues</string>
     <string name="title_top_bar">Mario Material Theme</string>
     <string name="title_princess">Quelle princesse êtes-vous ?</string>
+    <string name="title_imc">Mon calculateur IMC</string>
+    <string name="age">Age</string>
+    <string name="name">Nom</string>
+    <string name="calculate">Calculer</string>
 </resources>
