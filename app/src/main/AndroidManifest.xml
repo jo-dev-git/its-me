@@ -13,7 +13,7 @@
         android:theme="@style/Theme.ItsMe"
         tools:targetApi="31">
         <activity
-            android:name=".StrangersActivity"
+            android:name=".ui.ZooActivity"
             android:exported="true"
             android:theme="@style/Theme.ItsMe">
             <intent-filter>
