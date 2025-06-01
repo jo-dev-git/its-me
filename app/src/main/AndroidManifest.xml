@@ -13,7 +13,7 @@
         android:theme="@style/Theme.ItsMe"
         tools:targetApi="31">
         <activity
-            android:name=".ImcActivity"
+            android:name=".StrangersActivity"
             android:exported="true"
             android:theme="@style/Theme.ItsMe">
             <intent-filter>

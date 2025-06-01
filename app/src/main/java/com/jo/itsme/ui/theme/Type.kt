@@ -20,6 +20,10 @@ val philoFont = FontFamily(
     Font(R.font.philosopher_bold_italic, weight = FontWeight.Bold, style = FontStyle.Italic)
 )
 
+val customFont = FontFamily(
+    Font(R.font.corpus_gaii_caps)
+)
+
 // Set of Material typography styles to start with
 val Typography = Typography(
     bodyLarge = TextStyle(
@@ -44,5 +48,9 @@ val Typography = Typography(
         fontSize = 22.sp,
         color = Blue
     ),
+    displayMedium = TextStyle(
+        fontFamily = customFont,
+        fontSize = 30.sp
+    )
 
 )

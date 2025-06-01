@@ -8,4 +8,20 @@
     <string name="age">Age</string>
     <string name="name">Nom</string>
     <string name="calculate">Calculer</string>
+    <string name="messages">Messages</string>
+
+    <string name="alban">Alban</string>
+    <string name="alice">Alice</string>
+    <string name="arthur">Arthur</string>
+    <string name="bernard">Bernard</string>
+    <string name="celia">Célia</string>
+    <string name="clara">Clara</string>
+    <string name="jose">José</string>
+    <string name="leo">Léo</string>
+    <string name="maxime">Maxime</string>
+    <string name="nico">Nico</string>
+    <string name="pierre">Pierre</string>
+    <string name="simon">Simon</string>
+    <string name="vanessa">Vanessa</string>
+    <string name="strangers_book">StrangersBook</string>
 </resources>
