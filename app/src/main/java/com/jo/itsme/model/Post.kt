@@ -1,4 +1,4 @@
-package com.jo.itsme.data
+package com.jo.itsme.model
 
 import androidx.annotation.DrawableRes
 

@@ -25,4 +25,6 @@
     <string name="vanessa">Vanessa</string>
     <string name="strangers_book">StrangersBook</string>
     <string name="my_zoo">Mon zoo</string>
+    <string name="accueil">Accueil</string>
+    <string name="home">Home</string>
 </resources>
