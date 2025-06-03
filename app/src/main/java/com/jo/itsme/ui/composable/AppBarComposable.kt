@@ -10,20 +10,19 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-import com.jo.itsme.R
 import com.jo.itsme.ui.theme.ItsMeTheme
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @OptIn(ExperimentalMaterial3Api::class)
-@Preview(showBackground = true)
 @Composable
-fun AppBarComposable() {
+fun AppBarComposable(title: String) {
     TopAppBar(title = {
-        Row(modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.Center) {
-            Text(stringResource(R.string.messages), style = MaterialTheme.typography.labelSmall)
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.Center
+        ) {
+            Text(title, style = MaterialTheme.typography.labelSmall)
         }
     })
 }
@@ -32,6 +31,6 @@ fun AppBarComposable() {
 @Composable
 fun AppBarPreview() {
     ItsMeTheme {
-        AppBarComposable()
+        AppBarComposable("Preview")
     }
 }

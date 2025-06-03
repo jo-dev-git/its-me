@@ -11,7 +11,7 @@ import com.jo.itsme.ui.theme.ItsMeTheme
 @Composable
 fun ScaffoldComposable() {
     Scaffold(
-        topBar = { AppBarComposable() },
+        topBar = { AppBarComposable("") },
         content = { it: PaddingValues -> BodyComposable(it) }
     )
 }

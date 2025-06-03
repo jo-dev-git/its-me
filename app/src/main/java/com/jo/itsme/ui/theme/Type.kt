@@ -29,28 +29,27 @@ val Typography = Typography(
     bodyLarge = TextStyle(
         fontFamily = philoFont,
         fontWeight = FontWeight.Normal,
-        fontSize = 18.sp,
-        color = LightGrey
+        fontSize = 18.sp
     ),
-    titleLarge = TextStyle(
-        fontFamily = marioFont,
-        fontSize = 40.sp,
-        color = LightGrey
+    /**titleLarge = TextStyle(
+    fontFamily = marioFont,
+    fontSize = 40.sp,
+    color = LightGrey
     ),
     labelMedium = TextStyle(
-        fontFamily = philoFont,
-        fontWeight = FontWeight.Bold,
-        fontSize = 25.sp,
-        color = Red
+    fontFamily = philoFont,
+    fontWeight = FontWeight.Bold,
+    fontSize = 25.sp,
+    color = Red
     ),
     labelSmall = TextStyle(
-        fontFamily = marioFont,
-        fontSize = 22.sp,
-        color = Blue
+    fontFamily = marioFont,
+    fontSize = 22.sp,
+    color = Blue
     ),
     displayMedium = TextStyle(
-        fontFamily = customFont,
-        fontSize = 30.sp
-    )
+    fontFamily = customFont,
+    fontSize = 30.sp
+    )**/
 
 )
